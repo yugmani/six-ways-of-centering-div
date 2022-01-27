@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+    .parent {
+     display:flex;
+     flex-direction:column;
+    }
+
+    .parent::before,
+    .parent::after {
+      content:"";
+      flex:1;
+    }
+
+    .child {
+     margin:0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <h3>Pseudo Elements on Flex</h2>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </body>
+</html>

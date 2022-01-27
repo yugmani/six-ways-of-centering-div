@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --bg-gray: lightgray;
+  --bg-bisque: bisque;
+  --text-color: #fff;
+  --font: sans-serif;
+}
+
+body {
+  background: var(--bg-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--bg-bisque);
+  padding: 10px;
+}
+
+.parent {
+  background: var(--primary-color);
+  width: 300px;
+  height: 300px;
+}
+
+.child {
+  background: limegreen;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
